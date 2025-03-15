@@ -142,6 +142,7 @@ zero = [0]
 negative_numbers.extend(zero)
 negative_numbers.extend(positive_numbers)
 print('Integers:', negative_numbers)
+
 fruits = ['banana', 'orange', 'mango', 'lemon']
 vegetables = ['Tomato', 'Potato', 'Cabbage','Onion', 'Carrot'] 
 fruits.extend(vegetables)
@@ -158,6 +159,7 @@ fruits = ['banana', 'orange', 'mango', 'lemon']
 print(fruits.index('orange'))   # 1
 ages = [22, 19, 24, 25, 26, 24, 25, 24]
 print(ages.index(24)) 
+
 # Reverse
 fruits = ['banana', 'orange', 'mango', 'lemon']
 fruits.reverse()
@@ -172,6 +174,7 @@ fruits.sort()
 print(fruits) 
 fruits.sort(reverse=True)
 print(fruits)
+
 ages = [22, 19, 24, 25, 26, 24, 25, 24]
 ages.sort()
 print(ages) 

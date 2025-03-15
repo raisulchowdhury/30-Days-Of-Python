@@ -32,7 +32,7 @@
     - [Exercises: Level 1](#exercises-level-1)
     - [Exercises: Level 2](#exercises-level-2)
 
-# Day 6:
+# Day 6
 
 ## Tuples
 
@@ -41,7 +41,7 @@ A tuple is a collection of different data types which is ordered and unchangeabl
 - tuple(): to create an empty tuple
 - count(): to count the number of a specified item in a tuple
 - index(): to find the index of a specified item in a tuple
-- + operator: to join two or more tuples and to create a new tuple
+- - operator: to join two or more tuples and to create a new tuple
 
 ### Creating a Tuple
 
@@ -230,7 +230,7 @@ del fruits
 1. Create an empty tuple
 2. Create a tuple containing names of your sisters and your brothers (imaginary siblings are fine)
 3. Join brothers and sisters tuples and assign it to siblings
-4. How many siblings do you have?
+4. How many siblings do you have? len(tpl)
 5. Modify the siblings tuple and add the name of your father and mother and assign it to family_members
 
 ### Exercises: Level 2
@@ -249,6 +249,5 @@ del fruits
   ```py
   nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway', 'Sweden')
   ```
-
 
 [<< Day 5](../05_Day_Lists/05_lists.md) | [Day 7 >>](../07_Day_Sets/07_sets.md)

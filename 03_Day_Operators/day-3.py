@@ -123,4 +123,5 @@ print(not False)     # True
 print(not not True)  # True
 print(not not False) # False
 
-print(int('9.8'))
+for i in range (1,6):
+    print (i, 1, i, i**2, i**3)

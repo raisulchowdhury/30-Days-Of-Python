@@ -163,11 +163,13 @@ challenge = 'thirty days of python'
 print(challenge.find('y'))  # 5
 print(challenge.find('th')) # 0
 
+for index, char in enumerate(challenge):
+    print(index, char)
 # isdigit(): Checks Digit Characters
 
 challenge = 'Thirty'
 print(challenge.isdigit()) # False
-challenge = '30'
+challenge = '30'#
 print(challenge.digit())   # True
 
 # isdecimal():Checks decimal characters
