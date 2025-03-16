@@ -111,7 +111,7 @@ print('mango' in fruits ) # True
 
 ### Adding Items to a Set
 
-Once a set is created we cannot change any items and we can also add additional items.
+Once a set is created we cannot change any items but we can add additional items.
 
 - Add one item using _add()_
 
