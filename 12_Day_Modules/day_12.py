@@ -89,5 +89,5 @@ string.printable
 
 
 characters = string.ascii_letters + string.digits + string.punctuation
-password= ''.join(r.choice(characters,k=6))
+password= ''.join(r.choices(characters,k=6))
 print(password)

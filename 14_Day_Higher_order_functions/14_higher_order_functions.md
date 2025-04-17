@@ -17,6 +17,7 @@
 [<< Day 13](../13_Day_List_comprehension/13_list_comprehension.md) | [Day 15>>](../15_Day_Python_type_errors/15_python_type_errors.md)
 
 ![30DaysOfPython](../images/30DaysOfPython_banner3@2x.png)
+
 - [📘 Day 14](#-day-14)
   - [Higher Order Functions](#higher-order-functions)
     - [Function as a Parameter](#function-as-a-parameter)
@@ -184,7 +185,7 @@ def split_string_decorator(function):
 @uppercase_decorator     # order with decorators is important in this case - .upper() function does not work with lists
 def greeting():
     return 'Welcome to Python'
-print(greeting())   # WELCOME TO PYTHON
+print(greeting())   # ['WELCOME', 'TO', 'PYTHON']
 ```
 
 ### Accepting Parameters in Decorator Functions
@@ -360,7 +361,7 @@ numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 ### Exercises: Level 3
 
-1. Use the countries_data.py (https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/countries-data.py) file and follow the tasks below:
+1. Use the countries_data.py (<https://github.com/Asabeneh/30-Days-Of-Python/blob/master/data/countries-data.py>) file and follow the tasks below:
    - Sort countries by name, by capital, by population
    - Sort out the ten most spoken languages by location.
    - Sort out the ten most populated countries.
